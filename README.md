@@ -1,3 +1,16 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
-# dart_homework_2
+# Dart 두 번째 과제: 콘솔 RPG 게임 만들기
+
+## 구현 기능
+
+### 필수 기능
+
+1. 파일로부터 데이터 읽어오기 (characters.txt, monsters.txt)
+2. 캐릭터 이름 입력받기 (한글, 영문 가능, 특수문자 제한)
+3. 게임 종료 후 결과 저장 (result.txt)
+
+### 도전 기능
+
+1. 캐릭터 체력 증가 기능 (30% 확률로 체력 +10 증가)
+2. 아이템 사용 기능 (한 번만 사용 가능, 공격력 2배 증가)
+3. 몬스터 방어력 증가 기능 (3턴마다 +2 증가)
+4. 나만의 기능 추가 (게임 중 exit 입력하면 즉시 종료 후 재시작 가능)
